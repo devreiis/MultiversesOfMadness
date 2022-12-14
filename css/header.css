@@ -1,0 +1,21 @@
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.link-container {
+    display: flex;
+    gap: 30px;
+}
+.link-container a {
+    text-shadow: 2px 2px 2px #000;
+    cursor: pointer;
+    padding: 6px;
+    font-weight: 700;
+    transition: all 0.7s;
+}
+.link-container a:hover {
+    background-color: #E62721;
+}
+     
+    
